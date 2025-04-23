@@ -6,11 +6,20 @@ import { Github, ExternalLink } from 'lucide-react';
 const Projects = () => {
   const projects = [
     {
+      title: "Quadro Kanban",
+      description: "Dashboard de gerenciamento de tarefas desenvolvido com React e JavaScript. Permite criar, mover e organizar tarefas em diferentes colunas (To Do, In Progress, Done). Interface intuitiva e responsiva.",
+      period: "2025",
+      links: {
+        github: "https://github.com/Kauezo/Quadro-Kanban",
+        live: "https://kauezo.github.io/Quadro-Kanban/"
+      }
+    },
+    {
       title: "Mini Blog",
       description: "Desenvolvimento de um site responsivo e funcional que permite aos usuários postar fotos. Utilização de React, Firebase e MongoDB para criação do projeto.",
       period: "2025",
       links: {
-        github: "https://kauezo.github.io/miniBlog/",
+        github: "https://github.com/Kauezo/miniBlog",
         live: "https://kauezo.github.io/miniBlog/"
       }
     },
