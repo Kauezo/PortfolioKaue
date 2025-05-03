@@ -7,27 +7,28 @@ const Skills = () => {
   const skills = [
     {
       category: "Front-End",
-      items: ["JavaScript", "TypeScript", "React"],
+      items: ["JavaScript", "TypeScript", "React", "Tailwind CSS"],
       icon: <Code2 className="w-6 h-6" />
     },
     {
       category: "Back-End",
-      items: ["PHP", "SQL", "Python", "Node.js"],
+      items: ["JAVA", "PHP", "Python", "Node.js"],
       icon: <Terminal className="w-6 h-6" />
+    },
+    {
+      category: "Banco de Dados",
+      items: ["Firebase", "MongoDB", "SQL", "PostgreSQL", "Supabase", "Baserow"],
+      icon: <Database className="w-6 h-6" />
     },
     {
       category: "Automação e IA",
       items: ["n8n", "AI Agents", "Integrações inteligentes", "Workflows automatizados", "Chatbots"],
       icon: <Brain className="w-6 h-6" />
     },
-    {
-      category: "Banco de Dados",
-      items: ["Firebase", "MongoDB", "SQL", "Supabase", "Baserow"],
-      icon: <Database className="w-6 h-6" />
-    },
+    
     {
       category: "Ferramentas",
-      items: ["Git", "GitHub", "VS Code", "Office", "Lovable", "Figma"],
+      items: ["Git", "GitHub", "VS Code", "Office", "Lovable", "Figma", "Cursor"],
       icon: <Layout className="w-6 h-6" />
     }
   ];

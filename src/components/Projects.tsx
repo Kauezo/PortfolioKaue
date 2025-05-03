@@ -6,6 +6,14 @@ import { Github, ExternalLink } from 'lucide-react';
 const Projects = () => {
   const projects = [
     {
+      title: "JavaFX Calculator",
+      description: "Calculadora desenvolvida com JavaFX, oferecendo uma interface gráfica moderna e funcionalidades básicas de cálculo. Projeto que demonstra habilidades em desenvolvimento desktop com Java.",
+      period: "2025",
+      links: {
+        github: "https://github.com/Kauezo/java-calculator"
+      }
+    },
+    {
       title: "Quadro Kanban",
       description: "Dashboard de gerenciamento de tarefas desenvolvido com React e JavaScript. Permite criar, mover e organizar tarefas em diferentes colunas (To Do, In Progress, Done). Interface intuitiva e responsiva.",
       period: "2025",
